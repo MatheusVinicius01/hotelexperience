@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(#e8e498a8, #aba495a8);
+}
+
+h2 {
+    color: #e4bc04;
+    font-size: clamp(25pt, 45pt, 65pt);
+    letter-spacing: 3px;
+    max-width: 60%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    text-shadow: 3px 3px 2px rgb(1 1 8 / 70%);
+}
+
+p {
+    color: #4e4848;
+    font-size: clamp(6pt, 14pt, 18pt);
+    line-height: 2.1rem;
+    max-width: 80%;
+    margin: 2rem 4rem 2rem 4rem;
+    text-align: center;
+}
+
+.text {
+    padding-bottom: 45px;
+}
+
+.text_reserva {
+    color: #e4bc04;
+    text-shadow: 2px 2px 1px rgb(1 1 8 / 25%);
+    text-decoration: none;
+    border: 2px solid;
+    letter-spacing: 1.6px;
+    font-size: 1.5rem;
+    margin: 1rem 35% 3rem 35%;
+    padding: 5px;
+    filter: contrast(65%);
+    background: rgba(230, 183, 53, 0);
+}
+.text_reserva a:hover,
+.text_reserva a:focus {
+    background: orange;
+    transition: background 1.5s;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.img_cont {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-bottom: 45px;
+    
+}
+
+.img_cont img {
+    max-width: 100%;
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    border-left: 4px solid #e4bc04;
+    border-right: 4px solid #e4bc04;
+    border-top: 4px dashed #e4bc04;
+    border-bottom: 4px dashed #e4bc04;
+}
+
+.title_quartos {
+    background: linear-gradient(#e4bb0470, #746c6cd8);
+    max-width: 98%;
+    padding: 30px;
+    border:4px solid black;
+    border-radius: 20px;
+
+}
+
+.text_quartos {
+    padding: 20px;
+}
+
+.comodos {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itens_quarto img {
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 15px;
+    border-left: 2px solid #e4bc04;
+    border-right: 2px solid #e4bc04;
+    border-top: 2px dashed #e4bc04;
+    border-bottom: 2px dashed #e4bc04;
+    
+}

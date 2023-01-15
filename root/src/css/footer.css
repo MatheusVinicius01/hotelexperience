@@ -1,0 +1,82 @@
+.cont-footer {
+    background-color: #7f8523;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.map {
+    height: 250px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.help a {
+    text-decoration: none;
+    color: #dce6e7;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.copyrt {
+    font-size: 0.9rem;
+    color: rgb(56, 55, 55);
+}
+
+.redes_sociais {
+    margin: 0 20px 0 20px;
+}
+
+.redes_sociais a {
+    font-size: 1.4rem;
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-around;
+    margin-left: 4px;
+}
+
+.redes_sociais h3 {
+    color: #dce6e7;
+    margin: 1rem;
+}
+
+.copyright {
+    padding: 1%;
+    background-color: #a4a259;
+}
+
+.info_end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.info_end a {
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.info_end i {
+    font-size: 1.2rem;
+}
+
+.logo-tex {
+    width: 50px;
+}
