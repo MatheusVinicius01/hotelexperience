@@ -23,4 +23,4 @@ Criar uma versão da página Sobre, utilizando a tecnologia CSS
 
 ### Links
 
-[hotelexperience(https://matheusvinicius01.github.io/hotelexperience/)
+[hotelexperience] (https://matheusvinicius01.github.io/hotelexperience/)
