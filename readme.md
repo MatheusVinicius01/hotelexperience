@@ -1,4 +1,4 @@
-# SinglePage Sobre
+# Page-Sobre
 
 ### Projeto individual solicitado pela T.EX tecnhology.
 
